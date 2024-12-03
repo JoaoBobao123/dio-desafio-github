@@ -1,0 +1,149 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+body {
+    background-color: black;
+    align-items: center;
+    height: 2491;
+}
+button{
+    color: white;
+}
+h2{
+    color: lightblue;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: white;
+}
+.titulo{
+color: rgb(20, 20, 200);
+}
+header{
+    color: white;
+    text-align: center;
+}
+.banner {
+    padding: 60px;
+    min-height: 35rem;
+    align-items: center;
+    background-image: url(./assets/banner.png);
+    height: 1440;
+    width: 605;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    background-color: black;
+    
+  }
+.nova{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.módulos{
+    max-width: 49.5rem;
+    text-align: center;
+}
+.inscrição{
+background-color: black;
+border: valor;
+border-color: blue;
+font-size: large;
+}
+#course-content {
+    color: white;
+    border-bottom: 0.1rem solid #33A8DB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 100vh;
+    padding: 2rem;
+}
+main{
+    min-height: 35rem;
+}
+.modules-list{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 1440;
+    width: 605;
+}
+.transform-world{
+    background-image: url(./assets/woman-code.png);
+    background-color: black;
+    min-height: 50px;
+}
+#professional-challenges{
+    text-align: center;
+    background-color: black;
+    height: 1440;
+    width: 605;
+}
+.dio-logo{
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.modules-list{
+    background-color: black;
+    color: white;
+    text-align: center;
+display: grid;
+    gap: 1.5rem;
+}
+.module{
+    border: 0.1rem solid #33A8DB;
+    border-radius: 4rem;
+    background: #252525;
+    box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.40);
+    padding: 1rem 7rem;
+    text-align: left;
+    min-width: 550px;
+    max-height: 65px;
+    white-space: nowrap;
+}
+#transform-world {
+    background: url(./assets/woman-code.png) no-repeat center / cover fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+.evo{
+
+    color: #33A8DB;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.38rem;
+    text-transform: uppercase;
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
+.trans{
+    color: #FFF;
+    text-shadow: 3px 2px 0px #33A8DB;
+    font-size: 2.5rem;
+    font-weight: 900;
+    width: 15.25rem;
+    text-transform: lowercase;
+    text-align: center;
+}
